@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Pagina personal</title>
+    
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    
+    <script src="https://kit.fontawesome.com/53ba0b0068.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+</head>
+<body>
+    <span id="marge" class="lol"></span>
+    <header id="menu" class="menu">
+        <div class="container">
+            <div class="first">
+                <div class="left">
+                    <span><i class="fas fa-phone-alt"></i>555-555-555</span>
+                    <span><i class="fas fa-envelope"></i>info@company.com</span>
+                </div>
+                <div class="right">
+                    <a href="https://www.facebook.com/leonardomeza87" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/leonardomeza87" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <i class="fab fa-google-plus-g"></i>
+                    <a href="https://www.instagram.com/leonardomeza87" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <i class="fab fa-twitch"></i>
+                    <a href="https://www.youtube.com/channel/UCqX0_sZYnKlw8EdO_12I_Vg" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="second">
+                <hgroup>
+                    <h1>Another Subject</h1>
+                    <h2>Cretive mind</h2>
+                </hgroup>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="proyects.html">Proyects</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li class="button"><a href="https://www.facebook.com/leonardomeza87" target="_blank">Boton</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="c-slider">
+        <div id="slider">
+            <section><img src="img/1.jpg"></section>
+            <section><img src="img/1.jpg"></section>
+            <section><img src="img/1.jpg"></section>
+        </div>
+        <div id="btn-prev"><i class="fas fa-arrow-left"></i></div>
+        <div id="slash">/</div>
+        <div id="btn-next"><i class="fas fa-arrow-right"></i></div>
+    </div>
+    <section id="content">
+        <div class="container">
+            <div class="text">
+                <hgroup>
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </hgroup>
+                <span></span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas recusandae, corporis adipisci nesciunt quisquam magni reiciendis sed, delectus ullam totam numquam nulla, nostrum praesentium! Voluptate, aut cumque deleniti autem iusto!</p>
+                <p>Expedita placeat voluptatibus consectetur, ab necessitatibus, sequi voluptate, ullam inventore blanditiis tempora praesentium.</p>
+                <input type="button" value="Leer Mas" onclick="msg()">
+            </div>
+            <div class="img">
+                <img src="img/negro.jpg" id="c1">
+                <div class="c2">
+                    <img src="img/chica.jpg" id="c2">
+                </div>
+            </div>
+        </div>
+        <div class="container-r">
+            <span id="raya"></span>
+        </div>
+    </section>
+    <div id="porta">
+        <div class="portafolio">
+            <div class="text">
+                <span class="line"></span>
+                <h2>Galeria</h2>
+                <span class="line"></span>
+            </div>
+            <div class="container">
+                <div class="img-container">
+                    <div class="subcontain1">
+                        <a href="img/p1.jpg" target="_blank"><img src="img/p1.jpg" alt="Irlanda"></a>
+                        <a href="img/p2.jpg" target="_blank"><img src="img/p2.jpg" alt="Torre Eiffel"></a>
+                        <a href="img/p3.jpg" target="_blank"><img src="img/p3.jpg" alt="Roma"></a>
+                        <a href="img/p4.jpg" target="_blank"><img src="img/p4.jpg" alt="Paris"></a>
+                    </div>
+                    <div class="subcontain2">
+                        <a href="img/p5.jpg" target="_blank"><img src="img/p5.jpg" alt="Venecia"></a>
+                        <a href="img/p6.jpg" target="_blank"><img src="img/p6.jpg" alt="Pacifico"></a>
+                        <a href="img/p7.jpg" target="_blank"><img src="img/p7.jpg" alt="Dinamarca"></a>
+                        <a href="img/p8.jpg" target="_blank"><img src="img/p8.jpg" alt="Reino Unido"></a>
+                    </div>
+                </div>
+                <input type="button" value="Ver Mas" onclick="msg()">
+            </div>
+        </div>
+    </div>
+    <div id="youtube">
+        <img src="img/youtube.png" alt="">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8GW6sLrK40k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <footer>
+        <p>Diseñado por: Leonardo Meza &copy;2019</p>
+        <span class="circle">
+            <i class="fab fa-adobe"></i>
+            <i class="fas fa-paint-brush"></i>
+            <i class="fas fa-laptop-code" id="espacio1"></i>
+            <i class="fab fa-angrycreative" id="espacio2"></i>
+            <i class="fab fa-android"></i>
+            <i class="fab fa-apple"></i>
+        </span>
+    </footer>
+    <script src="js/slider.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
