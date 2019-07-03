@@ -1,2 +1,2 @@
-# anothersubject
-Página web estatica de prueba
+# Another Subject
+Página web estatica: https://leonardomeza87.github.io/anothersubject/
