@@ -312,7 +312,6 @@ section .border aside .container{
 section .border aside .container img {
     display: block;
     width: 100%;
-    height: 200px;
     margin-bottom: 20px
 }
 section .border aside .container h2 {
